@@ -79,6 +79,12 @@ header nav a {
 	padding-right: 45px;
     color: black;
 }
+
+a:hover {
+	transition: 1.0s;
+    color: blueviolet;
+}
+
 .logo {
     margin-right: 5%;
     margin-left: 9%
