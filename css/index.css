@@ -67,7 +67,11 @@ p {
 }
 .headercontent {
   display: flex;
+  margin-top: 2%;
   margin-bottom: 2%;
+}
+nav {
+    margin-top: 2%;
 }
 header nav a {
 	font-size: 14px;
@@ -79,13 +83,14 @@ header nav a {
     margin-right: 5%;
     margin-left: 9%
 }
+.jumbo {
+    margin-left: 9%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
-.jumbo {
-    margin-left: 9%;
-}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -187,4 +192,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page CSS Starts Here */
+
+.abouttop {
+  padding: 2%;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.aboutmiddle {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  justify-content: space-between
+}
+
+.aboutmiddle-content {
+  width: 48%;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed black;
+}
+.aboutbutton {
+  border:1px solid black;
+  border-radius: 12px;
+  padding: 5px 30px;
+  margin-top: 2px;
+}
+.aboutbottom {
+  padding: 2%;
 }
